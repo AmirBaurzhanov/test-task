@@ -28,40 +28,44 @@
                 </div>
             </div>
         </header>
-        <header class="header">
-            <div class="container">
-                <div class="header__inner">
-                    <div class="header__logo"><img src="./assets/images/logo.svg" alt=""> 
-                        <div>гармония жизни <span>медицинский центр</span></div></div>
-                    <nav class="nav">
-                        <ul>
-                            <li>Наркология</li>
-                            <li>Консультация</li>
-                            <li>Другие услуги</li>
-                            <li>О нас</li>
-                            <li>Цены</li>
-                            <li>Отзывы</li>
-                            <li>Контакты</li>
-                        </ul>
-                    </nav>
-                    <nav class="header__content desktop">
-                        <ul>
-                            <li><img src="./assets/images/arrow__down.svg" alt=""></li>
-                            <li><img src="./assets/images/phone.svg" alt=""></li>
-                            <li>+7 (4872) 35-87-03</li>
-                        </ul>
-                    </nav>
-                    <nav class="header__content">
-                        <ul>
-                            <li>+7 (4872) 35-87-03</li>
-                            <li><a href="#!" id="phone"><img src="./assets/images/phone.svg" alt=""></a></li>
-                            <li><a href="#!" id="burger"><img src="./assets/images/burger.svg" alt=""></a></li>
-                        </ul>
-                    </nav>
+        <div class="kinnnnn">
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__logo"><img src="./assets/images/logo.svg" alt=""> 
+                            <div>гармония жизни <span>медицинский центр</span></div></div>
+                        <nav class="nav">
+                            <ul>
+                                <li>Наркология</li>
+                                <li>Консультация</li>
+                                <li>Другие услуги</li>
+                                <li>О нас</li>
+                                <li>Цены</li>
+                                <li>Отзывы</li>
+                                <li>Контакты</li>
+                            </ul>
+                        </nav>
+                        <nav class="header__content desktop">
+                            <ul>
+                                <li><img src="./assets/images/arrow__down.svg" alt=""></li>
+                                <li><img src="./assets/images/phone.svg" alt=""></li>
+                                <li>+7 (4872) 35-87-03</li>
+                            </ul>
+                        </nav>
+                        <div class="mobile">
+                            <nav class="header__content" id="mobile">
+                                <ul>
+                                    <li>+7 (4872) 35-87-03</li>
+                                    <li><a href="#!" id="phone" onclick="menu()" ><img src="./assets/images/phone.svg" alt=""></a></li>
+                                    <li><a href="#!" id="burger" onclick="menu('burger')"><img src="./assets/images/burger.svg" alt=""></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </header>
-        <div class="header__bb">
+            </header>
+        </div>
+        <div class="header__bb mobile" id="menuburger">
             <div class="header__b">
                 <div class="burger__header">
                     <div class="container">
@@ -82,7 +86,7 @@
                 </div>
             </div>
         </div>
-        <div class="header__cc">
+        <div class="header__cc mobile" id="phonemenu">
             <div class="header__b">
                 <div class="burger__header">
                     <div class="container">
@@ -476,6 +480,28 @@
                 </div>
             </div>
         </section>
+        <div class="swiper mySwiper forth" id="papap">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://via.placeholder.com/1920" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://via.placeholder.com/1920" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://via.placeholder.com/1920" alt="">
+                </div>
+            </div>
+            <div class="swiper-buttons">
+                <div class="swiper-button-prev" id="preee">
+                    <img src="./assets/images/sliderarrow2.svg" alt="">
+                </div>
+                <div class="swiper-button-next" id="neext">
+                    <img style="transform:rotate(-180deg)" src="./assets/images/sliderarrow2.svg" alt="">
+                </div>
+            </div>
+        </div>
+        
 
     <footer class="footer">
         <div class="container">
@@ -596,6 +622,7 @@
        
 
     <script src="./assets/settings.js"></script>
+    <script src="./assets/script.js"></script>
 
 </body>
 </html>

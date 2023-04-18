@@ -10,6 +10,11 @@ li {
     list-style-type: none;
 }
 
+.mobile {
+    display: none;
+    overflow: hidden;
+}
+
 body {
     background: #E0E0E0;
 }
@@ -912,6 +917,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .mobile {
+        display: block;
+        overflow: visible;
+    }
     #info____mobile {
         display: flex;
     }
@@ -979,6 +988,11 @@ body {
         display: none;
         overflow: hidden;
         &.active {
+            -webkit-transition: 3s;
+            -moz-transition: 3s;
+            -ms-transition: 3s;
+            -o-transition: 3s;
+            transition: 3s;
             display: block;
             overflow: visible;
         }
@@ -987,6 +1001,11 @@ body {
         display: none;
         overflow: hidden;
         &.active {
+            -webkit-transition: 3s;
+            -moz-transition: 3s;
+            -ms-transition: 3s;
+            -o-transition: 3s;
+            transition: 3s;
             display: block;
             overflow: visible;
         }
@@ -1173,9 +1192,6 @@ body {
     .choose__titles {
         justify-content: space-around;
     }
-    #swiper .swiper-button-prev#123 {
-        top: 90%;
-    }
     .footer.mobile {
         display: block;
         overflow: visible;
@@ -1224,4 +1240,5 @@ body {
         display: none;
         overflow: hidden;
     }
+    
 }
