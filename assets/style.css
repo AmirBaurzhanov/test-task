@@ -283,6 +283,10 @@ body {
   flex-direction: column;
   gap: 90px;
 }
+#dadadadada {
+  display: none;
+  overflow: hidden;
+}
 .cards .card__title {
   color: #1e3c50;
   font-weight: 700;
@@ -1226,6 +1230,10 @@ body {
 
 
 @media screen and (max-width: 540px) {
+  #dadadadada {
+    display: block;
+    overflow: visible;
+  }
   .contact {
     display: none;
     overflow: hidden;
@@ -1410,5 +1418,116 @@ body {
   .footer__lower .footer__image {
     width: 100%;
   }
+  #info {
+    width: 100%;
+  }
+  .info__cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+  }
+  .info__cards .card.card-big {
+    background-image: none;
+  }
+  #info {
+    display: none;
+    overflow: hidden;
+  }
+  #infor {
+    width: 100%;
+    display: block;
+    overflow: visible;
+  }
+  .info__cards .card .btn {
+    position: relative;
+    bottom: 0;
+  }
+  .card__title {
+    position: relative;
+  }
+  .card__title::after {
+    content: "";
+    height: 1px;
+    background-color: #60CDF6;
+    width: 100%;
+    display: block;
 
+    position: absolute;
+    top: 100%;
+    margin-top: 20px;
+  }
+  .card__subtitle {
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+  }
+  #header__logo div:first-child img {
+    height: 48px;
+    width: 48px;
+  }
+  #footer__lower {
+    margin-top: 12px;
+    gap: 0;
+    align-items: center;
+  }
+
+  #header__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+  }
+  .header__logo div {
+    text-align: center;
+  }
+  #heaofkda {
+    margin-top: 10px;
+  }
+  #cadadda {
+    display: none;
+    overflow: hidden;
+  }
+  #cadaddad .card__img img{
+    height: 50px;
+    width: 50px;
+  }
+  .center__cards {
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+  }
+  #dada {
+    margin-top: 50px;
+  }
+  #dadaxpx{
+    display: flex;
+    flex-direction: column;
+  }
+  #dadaxpx {
+    margin-bottom: 0;
+  }
+  #dadaxpx::after {
+    display: none;
+    overflow: hidden;
+  }
+  #da1d {
+    position: relative;
+    margin-top: 30px;
+  }
+  .center__cards .card:last-child .card__text {
+    flex-direction: column-reverse;
+    align-items: baseline;
+  }
+  #dada {
+    height: auto;
+  }
+  #dada .swiper-pagination {
+    top: 96%;
+    left: 0% !important;
+  }
+  #papap {
+    margin-top: 60px;
+  }
 }
