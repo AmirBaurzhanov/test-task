@@ -1228,8 +1228,86 @@ body {
   }
 }
 
+#papap {
+  display: none;
+}
+
+#cclll {
+  display: none;
+  overflow: hidden;
+}
+
+.header__subimage {
+  display: none;
+  overflow: hidden;
+}
 
 @media screen and (max-width: 540px) {
+  #mySwadadada {
+    display: none;
+    overflow: hidden;
+  }
+  #invisible {
+    display: none;overflow: hidden;
+  }
+  #cclll {
+    display: block;
+  }
+  .intro__content {
+    height: 500px;
+    border-radius: 0px 0px 16px 16px;
+    background-color: #F2F7F9;
+  }
+  #aammm {
+    width: 90%;
+  }
+  #cclll .swiper-button-next {
+    right: 3%;
+    top: 60%;
+    background-color: #fff;
+  }
+  #cclll .swiper-button-prev {
+    left: 72%;
+    top: 60%;
+    background-color: #fff;
+  }
+  .header__subimage {
+    height: 500px;
+    width: 100%;
+    display: block;
+    overflow: visible;
+  }
+  .intro__buttons {
+    top: 130%;
+  }
+  .nav.mobule ul li {
+    font-size: 9px;
+  }
+  .intro.mobile {
+    display: block;
+    overflow: visible;
+  }
+  .burger__header {
+    width: 70%;
+  }
+  .intro__title h2 {
+    color: #1e3c50;
+  }
+  .intro__subtitle {
+    color: #1e3c50;
+  }
+  .header {
+    border-radius: 20px 20px 20px 20px;
+  }
+  #header__logo_ div {
+    text-align: unset;
+  }
+  #adaaaaaa {
+    display: none;
+  }
+  #papap {
+    display: block;
+  }
   #dadadadada {
     display: block;
     overflow: visible;
@@ -1457,7 +1535,7 @@ body {
     top: 100%;
     margin-top: 20px;
   }
-  .card__subtitle {
+  #card__subtitle_{
     position: absolute;
     bottom: 20px;
     color: #fff;
